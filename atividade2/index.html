@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script> 
+        $(function(){
+
+                $("#clique").on('click', function() {
+                let background = $("#campo").val(); 
+                })
+                 $("#mudared").on('click', function(){
+                    $("body").css('background-color', 'red'); 
+                })
+                $('#mudallow').on('click', function(){
+                    $('body').css('background-color', 'yellow');
+                })
+                $('#mudagre').on('click', function(){
+                    $('body').css('background-color', 'green'); 
+                })
+                $('#mudablue').on('click', function(){
+                    $('body').css('background-color', 'blue'); 
+                })
+            })
+               
+</script>
+    
+</head>
+<body>
+
+ 
+    <button id="mudared">  vermelho</button>
+    <button id="mudallow"> amarelo</button>
+    <button id="mudagre"> verde</button>
+    <button id="mudablue">azul</button>
+
+    
+</body>
+</html>
